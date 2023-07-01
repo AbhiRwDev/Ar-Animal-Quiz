@@ -3095,7 +3095,7 @@ GameObject:
   - component: {fileID: 2089351228}
   - component: {fileID: 2089351229}
   m_Layer: 0
-  m_Name: AnimalQuizManager
+  m_Name: HumanQuizManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3129,23 +3129,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionStore:
-  - Question: Who's That Animal
+  - Question: What's That Activity?
     Options:
-    - Lion
-    - Tiger
-    - Hyena
-    - Fox
-    CorrectAnswer: Lion
-    CorrectPrefab: {fileID: 2347243349636023916, guid: 3a76794b5f4fb454e82bbd09a7fb598a,
+    - Walking
+    - Running
+    - Sitting
+    - Jumping
+    CorrectAnswer: Jumping
+    CorrectPrefab: {fileID: 5799924546326585976, guid: 8bc5c8d680ea4754ea2d5e805b7c52e9,
       type: 3}
-  - Question: Who's That Animal!?
+  - Question: What's That Activity?
     Options:
-    - Dog
-    - Sparrow
-    - Peacock
-    - Fox
-    CorrectAnswer: Dog
-    CorrectPrefab: {fileID: 2347243349636023916, guid: 1a96523f08e40234881fd7e6331be23e,
+    - Walking
+    - Running
+    - Sitting
+    - Jumping
+    CorrectAnswer: Walking
+    CorrectPrefab: {fileID: 5149218909482562179, guid: 648357631449d614abf2e81887b3a4b9,
+      type: 3}
+  - Question: What's That Activity?
+    Options:
+    - Walking
+    - Running
+    - Sitting
+    - Jumping
+    CorrectAnswer: Sitting
+    CorrectPrefab: {fileID: 8905860722726063123, guid: 843f9d4410b800b44960e815fb6f7bf5,
       type: 3}
   Buttons:
   - {fileID: 568789192}
