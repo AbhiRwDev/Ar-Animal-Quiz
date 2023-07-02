@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/AnimalQuiz.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: 7c5bb32645b75c047a2a6a74654a232a
+  - enabled: 1
+    path: Assets/Scenes/Animals.unity
     guid: 6bdce89659816455b9f906fc62d19910
+  - enabled: 1
+    path: Assets/Scenes/Fruits.unity
+    guid: 66e43df4e1f79b1448d2886066c61c3d
+  - enabled: 1
+    path: Assets/Scenes/Humans.unity
+    guid: e0b58524807654242b7451d23c7235cb
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
