@@ -38,9 +38,14 @@ public class QuizManager : MonoBehaviour
     private int totalQuestions;
     public bool bShuffleQuestions, bRepeatQuestions, bShuffleOptions;
 
-    
+    public enum QuizType
+    {
+        animal,
+        human,
+        fruit
+    }
 
-
+    public QuizType quiztype;
     
 
     // Start is called before the first frame update
@@ -94,6 +99,19 @@ public class QuizManager : MonoBehaviour
             nextButton.SetActive(false);
             scoreGameObject.SetActive(true);
             scoreText.text = "Score: " + score + "/" + totalQuestions;
+            switch(quiztype)
+            {
+                case QuizType.animal:
+                    PlayerPrefs.SetString("AnimalScore", score + "/" + totalQuestions);
+                    break;
+                case QuizType.human:
+                    PlayerPrefs.SetString("HumanScore", score + "/" + totalQuestions);
+                    break;
+                case QuizType.fruit:
+                    PlayerPrefs.SetString("FruitScore", score + "/" + totalQuestions);
+                    break;
+            }
+           
         }
 
         questionAnswered = false;

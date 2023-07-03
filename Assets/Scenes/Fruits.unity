@@ -3455,6 +3455,7 @@ MonoBehaviour:
   bShuffleQuestions: 1
   bRepeatQuestions: 0
   bShuffleOptions: 1
+  quiztype: 2
 --- !u!1 &2093003107
 GameObject:
   m_ObjectHideFlags: 0

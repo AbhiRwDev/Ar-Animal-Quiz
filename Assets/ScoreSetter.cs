@@ -8,9 +8,9 @@ public class ScoreSetter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AnimalScore.text = "Animal Quiz - " + PlayerPrefs.GetString("AnimalScore");
-        HumanScore.text = "Human Quiz - " + PlayerPrefs.GetString("HumanScore");
-        FruitScore.text = "Fruit Quiz - " + PlayerPrefs.GetString("FruitScore");
+        AnimalScore.text = "ANIMAL QUIZ - " + PlayerPrefs.GetString("AnimalScore");
+        HumanScore.text = "HUMAN QUIZ - " + PlayerPrefs.GetString("HumanScore");
+        FruitScore.text = "FRUIT QUIZ - " + PlayerPrefs.GetString("FruitScore");
     }
 
     
